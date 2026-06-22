@@ -1,8 +1,10 @@
-<h1>🎭 Face Recognition using PCA</h1>
+> ⚠️ **Note:** *This repository contains academic assignments and experimental scripts completed during my coursework to practice foundational concepts. It is kept public for historical reference.*
 
-<p>Welcome to the <strong>Face Recognition using Principal Component Analysis (PCA)</strong> project! In this project, we dive into the exciting world of facial recognition by leveraging PCA, a powerful dimensionality reduction technique. The goal? To create an efficient and reliable facial recognition system capable of identifying individuals from a dataset of grayscale images. Our primary tool for accomplishing this is the concept of "Eigenfaces"—unique components that capture variations across different faces.</p>
+<h1> Face Recognition using PCA</h1>
 
-<h2>📖 Project Overview</h2>
+<p>Welcome to the <strong>Face Recognition using Principal Component Analysis (PCA)</strong> project! In this project, we dive into the exciting world of facial recognition by leveraging PCA, a powerful dimensionality reduction technique. The goal? To create an efficient and reliable facial recognition system capable of identifying individuals from a dataset of grayscale images. Our primary tool for accomplishing this is the concept of "Eigenfaces"-unique components that capture variations across different faces.</p>
+
+<h2> Project Overview</h2> 
 
 <p>This project builds a basic yet effective facial recognition system using the <strong>AT&T Face Dataset</strong>, a popular dataset containing grayscale images of 40 individuals. By reducing high-dimensional face data to a compact "face space," we use PCA to extract principal components, which allows for both efficient image reconstruction and accurate face matching.</p>
 
@@ -12,10 +14,10 @@
     <li><strong>Efficient Dimensionality Reduction:</strong> Reduces the dimensionality of images to extract essential features while preserving accuracy.</li>
 </ul>
 
-<h2>🗂️ Dataset</h2>
+<h2> Dataset</h2>
 <p><strong>AT&T Face Dataset:</strong> The dataset consists of grayscale images with dimensions <strong>92x112</strong>, organized into 40 directories (one for each subject). Each directory contains ten images of the subject, taken under varying conditions (lighting, facial expressions, etc.). The dataset can be downloaded <a href="https://link-to-dataset.com">here</a>.</p>
 
-<h2>🚀 Steps to Complete the Project</h2>
+<h2> Steps to Complete the Project</h2>
 
 <h3>1. Load Dataset and Split into Training and Test Sets</h3>
 <p><strong>Data Loading:</strong> Load images from the dataset and organize them for processing.<br>
@@ -33,13 +35,13 @@
 <h3>5. Face Recognition Module</h3>
 <p><strong>Recognition Accuracy:</strong> Identify the closest match from the training set for a test image and evaluate accuracy across different numbers of principal components.</p>
 
-<h2>🛠️ Prerequisites</h2>
+<h2> Prerequisites</h2>
 <ul>
     <li><strong>Python 3.x</strong></li>
     <li><strong>Required Libraries:</strong> numpy, scipy, matplotlib, opencv-python</li>
 </ul>
 
-<h2>📋 Instructions</h2>
+<h2> Instructions</h2>
 
 <h3>Clone the Repository:</h3>
 <pre>
@@ -75,7 +77,7 @@ python image_reconstruction.py
 python face_recognition.py
 </pre>
 
-<h2>⚔️ Challenges Faced</h2>
+<h2>Challenges Faced</h2>
 
 <p>Working with facial recognition using PCA posed some unique challenges:</p>
 <ul>
@@ -84,7 +86,7 @@ python face_recognition.py
     <li><strong>Performance Optimization:</strong> Implementing PCA from scratch required careful optimization to handle large datasets efficiently.</li>
 </ul>
 
-<h2>🚀 Future Directions</h2>
+<h2> Future Directions</h2>
 
 <p>There are several exciting directions for enhancing this project:</p>
 <ul>
@@ -94,7 +96,7 @@ python face_recognition.py
     <li><strong>Expand the Dataset:</strong> Test the model on larger and more diverse datasets for robustness evaluation.</li>
 </ul>
 
-<h2>🤝 Contributions</h2>
+<h2> Contributions</h2>
 
 <p><strong>Contributions are welcome!</strong> If you'd like to contribute to this project, please follow these guidelines:</p>
 <ol>
